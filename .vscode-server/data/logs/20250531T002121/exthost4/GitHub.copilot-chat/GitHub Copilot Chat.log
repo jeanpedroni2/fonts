@@ -11,3 +11,4 @@
 2025-05-31 11:43:45.584 [info] Registering default platform agent...
 2025-05-31 11:43:46.150 [info] Fetched model metadata in 950ms 3e775762-a681-447d-a465-e87f4f4fa4de
 2025-05-31 11:43:46.276 [info] activationBlocker from 'languageModelAccess' took for 2010ms
+2025-05-31 11:58:47.900 [info] Fetched model metadata in 805ms 0f41079d-2411-4b9a-a74c-fec895bd739b
