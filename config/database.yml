@@ -1,0 +1,39 @@
+# config/database.yml
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: myuser               # 👈 define o usuário do banco (igual ao docker-compose.yml)
+  password: mypassword           # 👈 define a senha do banco (igual ao docker-compose.yml)
+  host: db                       # 👈 define o host como o serviço "db" no docker-compose.yml
+  port: 5432                     # 👈 define a porta padrão do Postgres
+
+development:
+  <<: *default
+  database: myapp_development    # 👈 define o nome do banco de desenvolvimento (igual ao docker-compose.yml)
+
+test:
+  <<: *default
+  database: myapp_test           # 👈 define o banco de testes
+
+production:
+  primary: &primary_production
+    <<: *default
+    database: myapp_production
+    username: myuser
+    password: <%= ENV["MYAPP_DATABASE_PASSWORD"] %>   # 👈 recomendado usar variável de ambiente para produção
+    host: db
+    port: 5432
+  cache:
+    <<: *primary_production
+    database: myapp_production_cache
+    migrations_paths: db/cache_migrate
+  queue:
+    <<: *primary_production
+    database: myapp_production_queue
+    migrations_paths: db/queue_migrate
+  cable:
+    <<: *primary_production
+    database: myapp_production_cable
+    migrations_paths: db/cable_migrate

@@ -1,0 +1,10 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Jean Delamare Pedroni
+	email = pedroni01@gmail.com
+[credential]
+	helper = "!f() { /root/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node /tmp/vscode-remote-containers-077fff5a-f84d-4623-b964-d93a6be64fed.js git-credential-helper $*; }; f"

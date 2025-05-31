@@ -1,0 +1,89 @@
+2025-05-31 00:21:22.064 [info] 
+
+
+
+
+2025-05-31 00:21:22.134 [info] Installing extensions...
+2025-05-31 00:21:22.152 [info] Extension host agent started.
+2025-05-31 00:21:22.448 [debug] Error while reading the extension cache file: /root/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/root/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/root/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+2025-05-31 00:21:22.460 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2025-05-31 00:21:22.658 [info] [127.0.0.1][3c15c903][ManagementConnection] New connection established.
+2025-05-31 00:21:22.850 [debug] ComputeTargetPlatform: linux-x64
+2025-05-31 00:21:22.904 [info] Log level changed to info
+2025-05-31 00:21:24.099 [info] [127.0.0.1][c2499f74][ExtensionHostConnection] New connection established.
+2025-05-31 00:21:24.176 [info] [127.0.0.1][c2499f74][ExtensionHostConnection] <336> Launched Extension Host Process.
+2025-05-31 00:21:24.565 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2025-05-31 00:21:28.262 [info] Installing extension 'rebornix.ruby'...
+2025-05-31 00:21:28.284 [info] Installing extension 'ms-azuretools.vscode-docker'...
+2025-05-31 00:21:28.316 [info] Installing extension 'castwide.solargraph'...
+2025-05-31 00:21:28.330 [info] Getting Manifest... rebornix.ruby
+2025-05-31 00:21:28.331 [info] Getting Manifest... ms-azuretools.vscode-docker
+2025-05-31 00:21:28.332 [info] Getting Manifest... castwide.solargraph
+2025-05-31 00:21:28.448 [info] Installing extension: ms-azuretools.vscode-docker {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-05-31 00:21:28.460 [info] Installing extension: castwide.solargraph {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-05-31 00:21:28.467 [info] Installing extension: rebornix.ruby {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-05-31 00:21:29.303 [info] Getting Manifest... ms-azuretools.vscode-containers
+2025-05-31 00:21:29.428 [info] Getting Manifest... wingrunr21.vscode-ruby
+2025-05-31 00:21:30.462 [info] Installing extension: wingrunr21.vscode-ruby {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-05-31 00:21:30.707 [info] Installing extension: ms-azuretools.vscode-containers {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-05-31 00:21:58.553 [info] Extension signature verification result for ms-azuretools.vscode-docker: Success. Internal Code: 0. Executed: true. Duration: 26022ms.
+2025-05-31 00:21:58.806 [info] Extension signature verification result for wingrunr21.vscode-ruby: Success. Internal Code: 0. Executed: true. Duration: 26012ms.
+2025-05-31 00:21:58.871 [info] Extension signature verification result for castwide.solargraph: Success. Internal Code: 0. Executed: true. Duration: 25807ms.
+2025-05-31 00:21:58.933 [info] Extension signature verification result for rebornix.ruby: Success. Internal Code: 0. Executed: true. Duration: 25901ms.
+2025-05-31 00:21:59.027 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-azuretools.vscode-docker-2.0.0: ms-azuretools.vscode-docker
+2025-05-31 00:21:59.062 [info] Extension signature verification result for ms-azuretools.vscode-containers: Success. Internal Code: 0. Executed: true. Duration: 26153ms.
+2025-05-31 00:21:59.145 [info] Renamed to /root/.vscode-server/extensions/ms-azuretools.vscode-docker-2.0.0
+2025-05-31 00:22:00.656 [info] Extracted extension to file:///root/.vscode-server/extensions/wingrunr21.vscode-ruby-0.28.0: wingrunr21.vscode-ruby
+2025-05-31 00:22:00.944 [info] Renamed to /root/.vscode-server/extensions/wingrunr21.vscode-ruby-0.28.0
+2025-05-31 00:22:03.834 [info] Extracted extension to file:///root/.vscode-server/extensions/rebornix.ruby-0.28.1: rebornix.ruby
+2025-05-31 00:22:03.956 [info] Renamed to /root/.vscode-server/extensions/rebornix.ruby-0.28.1
+2025-05-31 00:22:05.445 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-azuretools.vscode-containers-2.0.2: ms-azuretools.vscode-containers
+2025-05-31 00:22:05.599 [info] Renamed to /root/.vscode-server/extensions/ms-azuretools.vscode-containers-2.0.2
+2025-05-31 00:22:12.971 [info] Extracted extension to file:///root/.vscode-server/extensions/castwide.solargraph-0.25.0: castwide.solargraph
+2025-05-31 00:22:13.941 [info] Renamed to /root/.vscode-server/extensions/castwide.solargraph-0.25.0
+2025-05-31 00:22:14.056 [info] Extension installed successfully: ms-azuretools.vscode-docker file:///root/.vscode-server/extensions/extensions.json
+2025-05-31 00:22:14.057 [info] Extension installed successfully: wingrunr21.vscode-ruby file:///root/.vscode-server/extensions/extensions.json
+2025-05-31 00:22:14.057 [info] Extension installed successfully: rebornix.ruby file:///root/.vscode-server/extensions/extensions.json
+2025-05-31 00:22:14.057 [info] Extension installed successfully: ms-azuretools.vscode-containers file:///root/.vscode-server/extensions/extensions.json
+2025-05-31 00:22:14.057 [info] Extension installed successfully: castwide.solargraph file:///root/.vscode-server/extensions/extensions.json
+2025-05-31 00:22:14.067 [info] Extension 'ms-azuretools.vscode-docker' v2.0.0 was successfully installed.
+2025-05-31 00:22:14.067 [info] Extension 'wingrunr21.vscode-ruby' v0.28.0 was successfully installed.
+2025-05-31 00:22:14.067 [info] Extension 'rebornix.ruby' v0.28.1 was successfully installed.
+2025-05-31 00:22:14.067 [info] Extension 'ms-azuretools.vscode-containers' v2.0.2 was successfully installed.
+2025-05-31 00:22:14.067 [info] Extension 'castwide.solargraph' v0.25.0 was successfully installed.
+2025-05-31 00:22:16.065 [error] #30: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo ENOTFOUND mobile.events.data.microsoft.com
+2025-05-31 03:14:31.794 [info] Downloaded extension to file:///root/.vscode-server/extensionsCache/af85ea28-4cad-48ed-9b49-a5aa41797c86
+2025-05-31 03:14:31.938 [info] Installing extension: github.copilot-chat {"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-05-31 03:14:34.178 [info] Getting Manifest... github.copilot
+2025-05-31 03:14:34.712 [info] Installing extension: github.copilot {"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-05-31 03:14:40.657 [info] Extracted extension to file:///root/.vscode-server/extensions/github.copilot-chat-0.26.7: github.copilot-chat
+2025-05-31 03:14:40.741 [info] Renamed to /root/.vscode-server/extensions/github.copilot-chat-0.26.7
+2025-05-31 03:14:43.188 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 7188ms.
+2025-05-31 03:14:50.056 [info] Extracted extension to file:///root/.vscode-server/extensions/github.copilot-1.326.0: github.copilot
+2025-05-31 03:14:50.127 [info] Renamed to /root/.vscode-server/extensions/github.copilot-1.326.0
+2025-05-31 03:14:50.261 [info] Extension installed successfully: github.copilot-chat file:///root/.vscode-server/extensions/extensions.json
+2025-05-31 03:14:50.261 [info] Extension installed successfully: github.copilot file:///root/.vscode-server/extensions/extensions.json
+2025-05-31 05:22:07.223 [info] Downloaded extension to file:///root/.vscode-server/extensionsCache/d841157f-77e9-4114-b3a6-c95ac0fa8792
+2025-05-31 05:22:07.341 [info] Installing extension: github.copilot {"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-05-31 05:22:09.732 [info] Getting Manifest... github.copilot-chat
+2025-05-31 05:22:10.194 [info] Deleted existing extension from disk github.copilot /root/.vscode-server/extensions/github.copilot-1.326.0
+2025-05-31 05:22:17.883 [info] Extracted extension to file:///root/.vscode-server/extensions/github.copilot-1.326.0: github.copilot
+2025-05-31 05:22:18.038 [info] Renamed to /root/.vscode-server/extensions/github.copilot-1.326.0
+2025-05-31 05:22:18.186 [info] Extension installed successfully: github.copilot file:///root/.vscode-server/extensions/extensions.json
+2025-05-31 10:43:55.050 [info] [127.0.0.1][3c15c903][ManagementConnection] The client has reconnected.
+2025-05-31 10:43:59.954 [info] [127.0.0.1][c2499f74][ExtensionHostConnection] The client has reconnected.
+2025-05-31 11:42:13.640 [info] [127.0.0.1][3c15c903][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-31 11:42:14.059 [info] [127.0.0.1][c2499f74][ExtensionHostConnection] <336> Extension Host Process exited with code: 0, signal: null.
+2025-05-31 11:42:20.284 [info] [127.0.0.1][aabd6967][ManagementConnection] New connection established.
+2025-05-31 11:42:20.891 [info] [127.0.0.1][c78f376e][ExtensionHostConnection] New connection established.
+2025-05-31 11:42:20.913 [info] [127.0.0.1][c78f376e][ExtensionHostConnection] <12336> Launched Extension Host Process.
+2025-05-31 11:43:06.455 [info] [127.0.0.1][aabd6967][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-31 11:43:06.826 [info] [127.0.0.1][c78f376e][ExtensionHostConnection] <12336> Extension Host Process exited with code: 0, signal: null.
+2025-05-31 11:43:12.807 [info] [127.0.0.1][cfd4d5e5][ManagementConnection] New connection established.
+2025-05-31 11:43:13.562 [info] [127.0.0.1][585e656d][ExtensionHostConnection] New connection established.
+2025-05-31 11:43:13.574 [info] [127.0.0.1][585e656d][ExtensionHostConnection] <13074> Launched Extension Host Process.
+2025-05-31 11:43:30.575 [info] [127.0.0.1][cfd4d5e5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-31 11:43:30.767 [info] [127.0.0.1][585e656d][ExtensionHostConnection] <13074> Extension Host Process exited with code: 0, signal: null.
+2025-05-31 11:43:36.894 [info] [127.0.0.1][14022d26][ManagementConnection] New connection established.
+2025-05-31 11:43:37.916 [info] [127.0.0.1][cc49d124][ExtensionHostConnection] New connection established.
+2025-05-31 11:43:37.926 [info] [127.0.0.1][cc49d124][ExtensionHostConnection] <13683> Launched Extension Host Process.

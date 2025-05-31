@@ -1,0 +1,110 @@
+2025-05-31 03:33:47.811 [info] Can't use the Electron fetcher in this environment.
+2025-05-31 03:33:47.811 [info] Using the Node fetch fetcher.
+2025-05-31 03:33:47.811 [info] Initializing Git extension service.
+2025-05-31 03:33:47.811 [info] Successfully activated the vscode.git extension.
+2025-05-31 03:33:47.811 [info] Enablement state of the vscode.git extension: true.
+2025-05-31 03:33:47.811 [info] Successfully registered Git commit message provider.
+2025-05-31 03:55:56.690 [info] Logged in as jeanpedroni2
+2025-05-31 03:56:57.703 [info] Got Copilot token for jeanpedroni2
+2025-05-31 04:38:26.931 [info] Logged in as jeanpedroni2
+2025-05-31 04:38:28.704 [info] Got Copilot token for jeanpedroni2
+2025-05-31 04:38:28.960 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 04:38:28.960 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-05-31 04:38:29.060 [info] Registering default platform agent...
+2025-05-31 04:39:29.668 [info] Fetched model metadata in 2551946ms c44f042f-eb06-4e43-a50c-37c2f8b3d3c8
+2025-05-31 04:39:29.694 [info] activationBlocker from 'languageModelAccess' took for 1019340ms
+2025-05-31 05:20:06.223 [info] Logged in as jeanpedroni2
+2025-05-31 05:20:07.954 [info] Got Copilot token for jeanpedroni2
+2025-05-31 05:20:07.986 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 05:24:08.385 [info] Fetched model metadata in 240400ms ddc7090d-2c59-404f-a513-f22a97de61ff
+2025-05-31 06:03:55.381 [info] Logged in as jeanpedroni2
+2025-05-31 06:03:57.098 [info] Got Copilot token for jeanpedroni2
+2025-05-31 06:03:57.133 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 06:29:08.316 [info] Logged in as jeanpedroni2
+2025-05-31 06:29:10.075 [info] Got Copilot token for jeanpedroni2
+2025-05-31 06:29:10.180 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 07:30:22.187 [info] Logged in as jeanpedroni2
+2025-05-31 07:30:23.968 [info] Got Copilot token for jeanpedroni2
+2025-05-31 07:30:23.995 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 07:56:15.364 [info] Logged in as jeanpedroni2
+2025-05-31 07:56:17.019 [info] Got Copilot token for jeanpedroni2
+2025-05-31 07:56:17.078 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 08:38:12.603 [info] Logged in as jeanpedroni2
+2025-05-31 08:38:14.335 [info] Got Copilot token for jeanpedroni2
+2025-05-31 08:38:14.364 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 09:29:03.400 [info] Logged in as jeanpedroni2
+2025-05-31 09:29:05.120 [info] Got Copilot token for jeanpedroni2
+2025-05-31 09:29:05.150 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 10:27:59.597 [info] Logged in as jeanpedroni2
+2025-05-31 10:28:01.364 [info] Got Copilot token for jeanpedroni2
+2025-05-31 10:28:01.393 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 10:31:42.549 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 11:31:26.439 [info] Logged in as jeanpedroni2
+2025-05-31 11:31:26.755 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-31 11:31:26.756 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at hM._fetch (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:784:25942)
+    at uT.fetchCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:50795)
+    at uT.authFromGitHubToken (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:48932)
+    at uT._auth (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:54615)
+    at uT._authShowWarnings (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:54795)
+    at uT.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:54029)
+    at V5.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:423:3589)
+    at qk._getAuthSession (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:479:3082)
+    at Object.o [as task] (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:479:738)
+    at kp._processQueue (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:474:3192971)
+  Error: getaddrinfo ENOTFOUND api.github.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-05-31 11:31:27.641 [info] Logged in as jeanpedroni2
+2025-05-31 11:31:28.027 [info] copilot token chat_enabled: undefined, sku: 
+2025-05-31 11:31:28.230 [info] Logged in as jeanpedroni2
+2025-05-31 11:31:28.558 [error] GitHub Copilot could not connect to server. Extension activation failed: "fetch failed"
+2025-05-31 11:31:28.558 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-31 11:31:28.560 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at hM._fetch (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:784:25942)
+    at uT.fetchCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:50795)
+    at uT.authFromGitHubToken (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:48932)
+    at uT._auth (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:54615)
+  Error: getaddrinfo ENOTFOUND api.github.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-05-31 11:31:28.560 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-31 11:31:28.560 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at hM._fetch (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:784:25942)
+    at uT.fetchCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:50795)
+    at uT.authFromGitHubToken (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:48932)
+    at uT._auth (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:54615)
+  Error: getaddrinfo ENOTFOUND api.github.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-05-31 11:32:45.028 [info] Logged in as jeanpedroni2
+2025-05-31 11:32:45.981 [info] Got Copilot token for jeanpedroni2
+2025-05-31 11:32:46.310 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 11:32:46.310 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-05-31 11:32:46.317 [error] Error: command 'github.copilot.chat.debug.showElements' already exists
+    at vw.registerCommand (file:///vscode/vscode-server/bin/linux-x64/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:111:40197)
+    at Object.registerCommand (file:///vscode/vscode-server/bin/linux-x64/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:173:29591)
+    at new lGe (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:831:1153)
+    at new w3 (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:827:2400)
+    at r._createInstance (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:413:1990)
+    at r.createInstance (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:413:1430)
+    at new AY (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:827:1344)
+    at r._createInstance (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:413:1990)
+    at r.createInstance (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:413:1430)
+    at create (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:423:1690)
+    at r.invokeFunction (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:413:941)
+    at new $b (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:423:1824)
+    at r._createInstance (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:413:1990)
+    at r.createInstance (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:413:1430)
+    at l5.set activated [as activated] (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:1387:6546)
+    at l5.set enabled [as enabled] (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:1387:5955)
+    at DG.value (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:1387:11372)
+    at nt._deliver (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:408:2934)
+    at nt._deliverQueue (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:408:3023)
+    at nt.fire (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:408:3357)
+    at V5._handleAuthChangeEvent (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:423:4951)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5): Error while loading contribution: Error: command 'github.copilot.chat.debug.showElements' already exists
+2025-05-31 11:32:47.536 [info] Fetched model metadata in 869ms b3a74a06-bb80-4f1f-8376-30b41ff3b410
