@@ -12,3 +12,44 @@
 2025-05-31 11:43:46.150 [info] Fetched model metadata in 950ms 3e775762-a681-447d-a465-e87f4f4fa4de
 2025-05-31 11:43:46.276 [info] activationBlocker from 'languageModelAccess' took for 2010ms
 2025-05-31 11:58:47.900 [info] Fetched model metadata in 805ms 0f41079d-2411-4b9a-a74c-fec895bd739b
+2025-05-31 11:59:50.143 [info] message 0 returned. finish reason: [stop]
+2025-05-31 11:59:50.147 [info] request done: requestId: [d1c0b95c-7d79-4f77-af51-622f5e9fdb81] model deployment ID: []
+2025-05-31 12:13:48.240 [info] Logged in as jeanpedroni2
+2025-05-31 12:13:49.311 [info] Got Copilot token for jeanpedroni2
+2025-05-31 12:13:49.496 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 12:43:49.636 [info] Logged in as jeanpedroni2
+2025-05-31 12:43:50.591 [info] Got Copilot token for jeanpedroni2
+2025-05-31 12:43:50.807 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 13:13:50.979 [info] Logged in as jeanpedroni2
+2025-05-31 13:13:51.982 [info] Got Copilot token for jeanpedroni2
+2025-05-31 13:13:52.211 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 13:43:52.433 [info] Logged in as jeanpedroni2
+2025-05-31 13:43:53.373 [info] Got Copilot token for jeanpedroni2
+2025-05-31 13:43:53.532 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 15:25:38.386 [info] Logged in as jeanpedroni2
+2025-05-31 15:25:55.243 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-31 15:25:55.243 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at hM._fetch (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:784:25942)
+    at kD._makeGHAPIRequest (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:45050)
+    at uT.authFromGitHubToken (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:50274)
+    at uT._auth (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:54615)
+    at uT._authShowWarnings (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:54795)
+    at uT.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:480:54029)
+    at V5.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:423:3589)
+    at qk._getAuthSession (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:479:3082)
+    at Object.o [as task] (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:479:738)
+    at kp._processQueue (/root/.vscode-server/extensions/github.copilot-chat-0.26.7/dist/extension.js:474:3192971)
+  SocketError: other side closed
+      at TLSSocket.onHttp2SocketEnd (/vscode/vscode-server/bin/linux-x64/4949701c880d4bdb949e3c0e6b400288da7f474b/node_modules/undici/lib/dispatcher/client-h2.js:266:22)
+      at TLSSocket.emit (node:events:530:35)
+      at endReadableNT (node:internal/streams/readable:1698:12)
+      at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-05-31 16:27:24.036 [info] Logged in as jeanpedroni2
+2025-05-31 16:27:25.138 [info] Got Copilot token for jeanpedroni2
+2025-05-31 16:27:25.200 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 16:29:36.170 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-31 22:30:59.687 [info] Logged in as jeanpedroni2
+2025-05-31 22:31:01.954 [info] Got Copilot token for jeanpedroni2
+2025-05-31 22:32:45.339 [info] copilot token chat_enabled: true, sku: free_limited_copilot

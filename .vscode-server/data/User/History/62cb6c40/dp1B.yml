@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: myuser          # 👈 nome do usuário do banco de dados
+      POSTGRES_PASSWORD: mypassword  # 👈 senha do usuário
+      POSTGRES_DB: myapp_development # 👈 nome do banco de dados inicial
+    ports:
+      - "5432:5432"                  # 👈 mapeia a porta do banco para uso externo (opcional)
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # 👈 persistência dos dados
+
+  web:
+    build:
+      context: .                     # 👈 constrói usando o Dockerfile na raiz ou na .devcontainer/
+      dockerfile: .devcontainer/Dockerfile  # 👈 define o Dockerfile customizado
+    command: bash -c "rm -f tmp/pids/server.pid && bundle install && rails server -b 0.0.0.0 -p 3000"
+    volumes:
+      - .:/workspace                 # 👈 mapeia o código do host para o container
+    ports:
+      - "3000:3000"                  # 👈 porta da aplicação Rails
+    environment:
+      DATABASE_URL: postgres://myuser:mypassword@db:5432/myapp_development
+    depends_on:
+      - db                           # 👈 garante que o banco suba antes da aplicação
+
+volumes:
+  postgres_data:                     # 👈 define o volume para persistência do Postgres

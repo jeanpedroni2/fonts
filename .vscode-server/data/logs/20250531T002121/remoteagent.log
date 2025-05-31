@@ -87,3 +87,9 @@
 2025-05-31 11:43:36.894 [info] [127.0.0.1][14022d26][ManagementConnection] New connection established.
 2025-05-31 11:43:37.916 [info] [127.0.0.1][cc49d124][ExtensionHostConnection] New connection established.
 2025-05-31 11:43:37.926 [info] [127.0.0.1][cc49d124][ExtensionHostConnection] <13683> Launched Extension Host Process.
+2025-05-31 13:45:19.033 [info] [127.0.0.1][14022d26][ManagementConnection] The client has reconnected.
+2025-05-31 13:45:23.974 [info] [127.0.0.1][cc49d124][ExtensionHostConnection] The client has reconnected.
+2025-05-31 16:29:31.017 [info] [127.0.0.1][14022d26][ManagementConnection] The client has reconnected.
+2025-05-31 16:29:35.988 [info] [127.0.0.1][cc49d124][ExtensionHostConnection] The client has reconnected.
+2025-05-31 21:11:47.814 [info] [127.0.0.1][14022d26][ManagementConnection] The client has reconnected.
+2025-05-31 21:11:53.215 [info] [127.0.0.1][cc49d124][ExtensionHostConnection] The client has reconnected.
